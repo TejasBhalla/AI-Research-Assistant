@@ -13,31 +13,19 @@ This project was developed during an AI-Driven Full-Stack Development Internship
 🧠 Key Concepts Used
 
 Retrieval-Augmented Generation (RAG)
-
 Semantic Search
-
 Vector Databases
-
 Document Chunking & Embeddings
-
 AI-Driven Full-Stack Architecture
 
 ✨ Features
-
 📄 Upload multiple documents (PDFs, notes, research papers)
-
 ✂️ Automatic document chunking
-
 🧬 Semantic embeddings using Sentence Transformers
-
 📦 Vector storage and retrieval using ChromaDB
-
 🔍 Natural language question answering
-
 📚 Citation-based answers grounded in source documents
-
 🎨 Modern, animated UI with responsive design
-
 ⚡ Fast and scalable backend using FastAPI
 
 ```🏗️ System Architecture (RAG Pipeline)
@@ -57,25 +45,17 @@ AI-Generated Answer with Citations
 Frontend
 
 React
-
 Tailwind CSS
-
 Framer Motion
-
 Zustand (state management)
-
 Lucide Icons
 
 Backend
 
 FastAPI
-
 SentenceTransformers
-
 ChromaDB
-
 Pydantic
-
 Uvicorn
 
 ```📂 Project Structure
@@ -104,39 +84,31 @@ ai-research-assistant/
 
 Windows
 
-venv\Scripts\activate
+```venv\Scripts\activate```
 
 
 macOS / Linux
 
-source venv/bin/activate
+```source venv/bin/activate```
 
 3️⃣ Install dependencies
-pip install fastapi uvicorn sentence-transformers chromadb pydantic
+```pip install fastapi uvicorn sentence-transformers chromadb pydantic```
 
 4️⃣ Run backend server
-uvicorn embedingmodel:app --reload
+```uvicorn embedingmodel:app --reload```
 
 
 Backend will be available at:
-
 http://127.0.0.1:8000
-
-
-Swagger UI:
-
-http://127.0.0.1:8000/docs
 
 ⚙️ Frontend Setup (React)
 1️⃣ Install dependencies
-npm install
+```npm install```
 
 2️⃣ Start development server
-npm run dev
-
+```npm run dev```
 
 Frontend runs at:
-
 http://localhost:5173
 
 🔌 API Endpoints
@@ -152,15 +124,9 @@ POST /reset
 📊 Example Query Flow
 
 Upload documents
-
 Documents are chunked & embedded
-
 Embeddings stored in ChromaDB
-
 User asks a question
-
 Relevant chunks retrieved via vector similarity
-
 AI generates an answer using retrieved context
-
 Sources are returned with the answer
