@@ -78,7 +78,7 @@ Pydantic
 
 Uvicorn
 
-📂 Project Structure
+```📂 Project Structure
 ai-research-assistant/
 │
 ├── frontend/
@@ -94,6 +94,7 @@ ai-research-assistant/
 │   └── requirements.txt
 │
 └── README.md
+```
 
 ⚙️ Backend Setup (FastAPI)
 1️⃣ Create virtual environment
