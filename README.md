@@ -40,7 +40,7 @@ AI-Driven Full-Stack Architecture
 
 ⚡ Fast and scalable backend using FastAPI
 
-🏗️ System Architecture (RAG Pipeline)
+```🏗️ System Architecture (RAG Pipeline)
 User Question
      ↓
 Query Embedding
@@ -52,7 +52,7 @@ Retrieve Top-K Relevant Chunks
 Context Augmentation
      ↓
 AI-Generated Answer with Citations
-
+```
 🛠️ Tech Stack
 Frontend
 
@@ -98,7 +98,7 @@ ai-research-assistant/
 
 ⚙️ Backend Setup (FastAPI)
 1️⃣ Create virtual environment
-python -m venv venv
+``` python -m venv venv ```
 
 2️⃣ Activate virtual environment
 
